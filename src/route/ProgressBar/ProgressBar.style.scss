@@ -1,0 +1,49 @@
+.ProgressBar{
+    padding-top: 20px;
+    background: #EEEEEE;
+    display: flex;
+    align-items: center;
+    .hr{
+        height: 3px;
+        border-radius: 2px;
+        width: 25%;
+        background: $default-primary-dark-color;
+        animation: moreWidth 1s linear;
+    }
+    .ProgressPoint{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .PointCircle{
+            width: 45px;
+            height: 45px;
+            background: $default-primary-dark-color;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 90px;
+            margin-right: 90px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: $white;
+            transition: 0.3s all ease;
+        }
+        .PointDescription{
+            text-align: center;
+            font-size: 15px;
+            color: $black;
+        }
+    }
+}
+
+
+@keyframes moreWidth {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 25%;
+    }
+}
