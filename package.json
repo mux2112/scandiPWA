@@ -8,7 +8,8 @@
         "@scandipwa/scandipwa-scripts": "2.4.16",
         "@tilework/mosaic": "0.1.4",
         "@tilework/mosaic-craco": "0.0.5",
-        "git": "^0.1.5"
+        "git": "^0.1.5",
+        "github": "^14.0.0"
     },
     "scandipwa": {
         "type": "theme",
